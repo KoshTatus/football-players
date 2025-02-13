@@ -1,0 +1,36 @@
+package com.example.lr3
+
+fun getPlayersList(): List<Player>{
+    return listOf(
+        Player(1, "Sergio Aguero", 385, 36,"CF", R.drawable.aguero),
+        Player(2, "Gareth Bale", 185, 35,"RW", R.drawable.bale),
+        Player(3, "Jude Bellingham", 62, 21,"AM", R.drawable.belinghem),
+        Player(4, "Karim Benzema", 449, 37,"CF", R.drawable.benzema),
+        Player(5, "Jerome Boateng", 16, 36,"CB", R.drawable.boateng),
+        Player(6, "Daniel Carvajal", 18, 33,"RB", R.drawable.carvajal),
+        Player(7, "Cristiano Ronaldo", 783, 40,"CF", R.drawable.cr7),
+        Player(8, "Toni Croos", 73, 35,"CM", R.drawable.croos),
+        Player(9, "Gavi", 9, 20,"CM", R.drawable.gavi),
+        Player(10, "Antoine Griezmann", 283, 33,"CF", R.drawable.griezmann),
+        Player(11, "Eden Hazard", 167, 34,"LW", R.drawable.hazard),
+        Player(12, "Gonzalo Higuain", 335, 37,"CF", R.drawable.higuain),
+        Player(13, "Erling Haaland", 252, 24,"CF", R.drawable.holland),
+        Player(14, "Andres Iniesta", 93, 40,"CM", R.drawable.iniesta),
+        Player(15, "Kevin De Bruyne", 152, 33,"AM", R.drawable.kdb),
+        Player(16, "Frank Lampard", 272, 46,"CM", R.drawable.lampard),
+        Player(17, "Robert Lewandowski", 599, 36,"CF", R.drawable.lewa),
+        Player(18, "Kylian Mbappe", 314, 26,"CF", R.drawable.mbappe),
+        Player(19, "Lionel Messi", 744, 37,"RW", R.drawable.messi),
+        Player(20, "Luka Modric", 90, 39,"CM", R.drawable.modric),
+        Player(21, "Thomas Muller", 289, 35,"AM", R.drawable.muller),
+        Player(22, "Ousmane Dembele", 91, 27,"RW", R.drawable.od),
+        Player(23, "Pedri", 28, 22,"CM", R.drawable.pedri),
+        Player(24, "Gerard Pique", 58, 38,"CB", R.drawable.pique),
+        Player(25, "Sergio Ramos", 117, 38,"CB", R.drawable.ramos),
+        Player(26, "Marco Reus", 240, 35,"AM", R.drawable.reus),
+        Player(27, "Heung-min Son", 237, 32,"LW", R.drawable.son),
+        Player(28, "Vinicius Junior", 119, 24,"LW", R.drawable.vini),
+        Player(29, "Xavi", 112, 45,"CM", R.drawable.xavi),
+        Player(30, "Lamine Yamal", 18, 17,"RW", R.drawable.yamal),
+    )
+}
