@@ -1,5 +1,6 @@
 package com.example.lr3
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,10 +8,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lr3.databinding.PlayerCardBinding
 
 class PlayerAdapter : RecyclerView.Adapter<PlayerAdapter.PlayerHolder>() {
-    val players = getPlayersList()
+    private val players = getPlayersList()
 
     class PlayerHolder(item: View): RecyclerView.ViewHolder(item){
-        val binding = PlayerCardBinding.bind(item)
+        private val binding = PlayerCardBinding.bind(item)
+        @SuppressLint("SetTextI18n")
         fun bind(player: Player) = with(binding){
             dayView.text = player.day.toString()
             playerImage.setImageResource(player.imageId)
